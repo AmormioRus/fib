@@ -31,7 +31,7 @@ int fib2a(int k)
 }
 
 
-
+//Returns roots
 bool realRoots(int a, int b, int c, double& x1, double& x2)
 {
 
@@ -70,6 +70,7 @@ bool identify(double x, int& a, int& b, int& c)
     return false;
 }
 
+//Returns lim
 double limfib()
 {
     const double tolerance = 1e-8;
